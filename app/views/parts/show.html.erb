@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @part.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @part.description %>
+</p>
+
+<p>
+  <b>Part no:</b>
+  <%=h @part.part_no %>
+</p>
+
+
+<%= link_to 'Edit', edit_part_path(@part) %> |
+<%= link_to 'Back', parts_path %>
